@@ -2,8 +2,14 @@
   "name": "isomorphic-ws",
   "version": "4.0.1",
   "description": "Isomorphic implementation of WebSocket",
-  "main": "node.js",
-  "browser": "browser.js",
+  "main": "node",
+  "browser": "browser",
+  "exports": {
+    ".": {
+      "require": "./node.js",
+      "import": "./node.mjs"
+    }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/heineiuo/isomorphic-ws.git"
@@ -28,7 +34,9 @@
   "files": [
     "index.d.ts",
     "node.js",
+    "node.mjs",
     "browser.js",
+    "browser.mjs",
     "README.md"
   ]
 }
