@@ -15,3 +15,4 @@ if (typeof WebSocket !== 'undefined') {
 }
 
 module.exports = ws
+module.exports.WebSocket = ws
