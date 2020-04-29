@@ -15,4 +15,3 @@ if (typeof WebSocket !== 'undefined') {
 }
 
 export default ws
-export { ws as WebSocket }
