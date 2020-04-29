@@ -1,6 +1,6 @@
 "use strict";
 
-var WebSocket = require('ws');
+var ws = require('ws');
 
-module.exports = WebSocket;
-module.exports.WebSocket = WebSocket;
+module.exports = ws;
+module.exports.default = ws;
