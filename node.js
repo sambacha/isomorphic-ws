@@ -1,3 +1,6 @@
 "use strict";
 
-module.exports = require('ws');
+var ws = require('ws');
+
+module.exports = ws;
+module.exports.default = ws;
